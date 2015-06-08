@@ -1,4 +1,0 @@
-/home/atty/Prog/Volumetric_Dynamic_Lights_2/OpenGL/MathLib/CMakeFiles/MathLib.dir
-/home/atty/Prog/Volumetric_Dynamic_Lights_2/OpenGL/CMakeFiles/OpenGL.dir
-/home/atty/Prog/Volumetric_Dynamic_Lights_2/OpenGL/ShaderManager/CMakeFiles/ShaderManager.dir
-/home/atty/Prog/Volumetric_Dynamic_Lights_2/OpenGL/TextureManager/CMakeFiles/TextureManager.dir

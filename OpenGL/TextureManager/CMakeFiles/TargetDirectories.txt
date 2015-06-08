@@ -1,1 +1,0 @@
-/home/atty/Prog/Volumetric_Dynamic_Lights_2/OpenGL/TextureManager/CMakeFiles/TextureManager.dir

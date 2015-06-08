@@ -1,2 +1,0 @@
-/usr/bin/ar cr libOpenGL.a  CMakeFiles/OpenGL.dir/Camera3D.cpp.o CMakeFiles/OpenGL.dir/CubeBufferObject.cpp.o CMakeFiles/OpenGL.dir/FrameBufferObject.cpp.o CMakeFiles/OpenGL.dir/Frustum.cpp.o CMakeFiles/OpenGL.dir/GpuTimerQuery.cpp.o CMakeFiles/OpenGL.dir/OGLShapes.cpp.o CMakeFiles/OpenGL.dir/OGLStateMachine.cpp.o CMakeFiles/OpenGL.dir/OrientPos.cpp.o CMakeFiles/OpenGL.dir/TextureProjection.cpp.o CMakeFiles/OpenGL.dir/TextureProjectionOrtho.cpp.o
-/usr/bin/ranlib libOpenGL.a
