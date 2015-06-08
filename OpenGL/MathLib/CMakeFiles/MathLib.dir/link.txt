@@ -1,0 +1,2 @@
+/usr/bin/ar cr libMathLib.a  CMakeFiles/MathLib.dir/MathLib.cpp.o CMakeFiles/MathLib.dir/MathLibFunc.cpp.o CMakeFiles/MathLib.dir/Matrix4.cpp.o CMakeFiles/MathLib.dir/Plane.cpp.o CMakeFiles/MathLib.dir/Quaternion.cpp.o CMakeFiles/MathLib.dir/Sphere.cpp.o CMakeFiles/MathLib.dir/Vector2.cpp.o CMakeFiles/MathLib.dir/Vector3.cpp.o CMakeFiles/MathLib.dir/Vector4.cpp.o
+/usr/bin/ranlib libMathLib.a

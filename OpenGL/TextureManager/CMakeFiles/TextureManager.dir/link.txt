@@ -1,0 +1,2 @@
+/usr/bin/ar cr libTextureManager.a  CMakeFiles/TextureManager.dir/ImageBMP.cpp.o CMakeFiles/TextureManager.dir/Image.cpp.o CMakeFiles/TextureManager.dir/ImageTGA.cpp.o CMakeFiles/TextureManager.dir/Texture2D.cpp.o CMakeFiles/TextureManager.dir/Texture3DEXT.cpp.o CMakeFiles/TextureManager.dir/Texture.cpp.o CMakeFiles/TextureManager.dir/TextureCubeMapARB.cpp.o CMakeFiles/TextureManager.dir/TextureManager.cpp.o
+/usr/bin/ranlib libTextureManager.a

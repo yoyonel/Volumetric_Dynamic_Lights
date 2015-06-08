@@ -1,0 +1,15 @@
+
+varying float4      vtxUV0;
+varying float4      vtxUV1;
+
+uniform float2      texCoordOffset;
+uniform sampler2D   textureSrc;
+
+void main()
+{
+    vtxUV0      = gl_MultiTexCoord0.stst + 1.0/float4(-texCoordOffset.x,-texCoordOffset.y, texCoordOffset.x,-texCoordOffset.y);
+    vtxUV1      = gl_MultiTexCoord0.stst + 1.0/float4( texCoordOffset.x, texCoordOffset.y,-texCoordOffset.x, texCoordOffset.y);
+
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
+

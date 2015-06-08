@@ -1,0 +1,12 @@
+
+varying float2      uv;
+
+uniform float4      blurDirStep;
+uniform sampler2D   textureSrc;
+
+void main()
+{
+    uv = gl_MultiTexCoord0.st - 4.0*blurDirStep.xy;
+
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}

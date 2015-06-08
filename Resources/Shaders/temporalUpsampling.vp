@@ -1,0 +1,23 @@
+
+varying float2      uv;
+varying float4      viewRay;
+varying float4      prevViewRay;
+
+uniform mat4        invVP;
+uniform mat4        prevInvVP;
+
+void main()
+{
+    uv = gl_MultiTexCoord0.xy;
+    
+    viewRay         = (invVP        * float4(gl_MultiTexCoord0.st*2.0-1.0,1.0,0.0));
+    prevViewRay     = (prevInvVP    * float4(gl_MultiTexCoord0.st*2.0-1.0,1.0,0.0));
+    
+    //viewRay.xyz/=viewRay.www;
+    //prevViewRay.xyz/=prevViewRay.www;
+    viewRay.w = 1.0;
+    prevViewRay.w = 1.0;
+
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
+

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libShaderManager.a  CMakeFiles/ShaderManager.dir/GPUProgram.cpp.o CMakeFiles/ShaderManager.dir/GPUProgramManager.cpp.o CMakeFiles/ShaderManager.dir/GPUShader.cpp.o
+/usr/bin/ranlib libShaderManager.a

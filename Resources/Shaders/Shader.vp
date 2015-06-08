@@ -1,0 +1,17 @@
+
+uniform float3 cameraPosition;
+uniform mat4 objectMat;
+
+varying float3 vtxNormal;
+varying float4 vtxColor;
+varying float4 vtxPosition;
+
+void main()
+{
+    vtxNormal   = gl_Normal;
+    vtxColor    = gl_Color;
+    vtxPosition = objectMat * gl_Vertex; // I miss the object transform here
+    
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
+

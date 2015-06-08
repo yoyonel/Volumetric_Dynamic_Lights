@@ -1,0 +1,20 @@
+
+varying float2 uv;
+varying float3 viewRay;
+
+uniform float3 viewPos;
+uniform mat4   invVP;
+
+
+
+
+void main()
+{
+    uv = gl_MultiTexCoord0.st;
+    
+    viewRay = (invVP * float4(gl_MultiTexCoord0.st*2.0-1.0,1.0,0.0)).xyz;
+
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+}
+
+
