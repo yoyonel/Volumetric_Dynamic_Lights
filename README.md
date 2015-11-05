@@ -15,7 +15,8 @@ Light scattering with openGL
 
 http://fabiensanglard.net/lightScattering/ (ça devrait aussi de compiler assez facilement sous Linux/CMAKE à faire !)
 
-Pour la version Linux je suis parti des sources de la version Windows et je me suis inspiré des CMakeLists.txt de iSpace&Time.
+# Pour la version Linux 
+je suis parti des sources de la version Windows et je me suis inspiré des CMakeLists.txt de iSpace&Time.
 Ça se fait relativement bien mais j’ai eu une erreur un peu mystique lié à OpenGL et NVIDIA: 
 Error: “Inconsistency detected by ld.so: dl-version.c: 224”
 http://stackoverflow.com/questions/20007961/error-running-a-compiled-c-file-uses-opengl-error-inconsistency-detected
